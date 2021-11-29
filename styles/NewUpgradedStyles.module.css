@@ -1,0 +1,200 @@
+/* navbar in layout styles */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 20rem;
+}
+
+.flex a[href='/cart'] {
+  margin-right: 20px;
+  height: 34px;
+  width: 34px;
+}
+
+.flex a[href='/login'] {
+  margin-right: 10px;
+}
+
+.flex a[href='/login'],
+.flex a[href='/register-type'] {
+  background-color: #77b050;
+  width: 108px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* The navigation header */
+/* check the height and the width */
+.navMenu {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #002b2b;
+}
+
+.lineUp {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+}
+
+.lowerNavigation {
+  width: 100%;
+  height: 6.6rem;
+  color: #002b2b;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  transition: all 0.6s ease;
+}
+
+/* when the page is being scrolled */
+.onScrollClassName {
+  background-color: #002b2b;
+  width: 100%;
+  height: 6.6rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  transition: all 0.6s ease;
+  color: #ffffff;
+}
+
+.onScrollClassName h2 {
+  color: #ffffff;
+}
+
+.navMenu {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #002b2b;
+}
+
+/* Footer Area Styles */
+.footer {
+  padding: 1rem;
+  margin-top: 60px;
+  color: #ffffff;
+  background-color: #002b2b;
+}
+
+.footer span p:last-of-type {
+  text-align: center;
+}
+
+.footer input {
+  border-radius: 16px;
+  margin-right: 5px;
+  border: 2px solid white;
+  height: 2.6rem;
+  width: 100%;
+  color: #002b2b;
+  padding: 0 10px;
+  outline-color: aquamarine;
+}
+
+.footer input::placeholder {
+  color: #002b2b;
+  font-weight: bold;
+}
+
+.footerSocialIcons {
+  padding: 0.5rem;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerSocialIcons .icons {
+  width: 20px;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 260px;
+}
+
+/* THIS FOR THE MEDIA QUERIES */
+
+@media only screen and (max-width: 1230px) {
+  .navMenu h2 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .navMenu {
+    display: none;
+  }
+}
+
+/*
+ footer: {
+    padding: '1rem',
+    marginTop: 60,
+    color: '#FFFFFF',
+    backgroundColor: '#002B2B',
+
+    '& span p:last-of-type': {
+      textAlign: 'center',
+    },
+
+    '& input': {
+      borderRadius: 16,
+      marginRight: 5,
+      border: '2px solid white',
+      height: '6px',
+    },
+  },
+
+  footerSocialIcons: {
+    paddingTop: '0.5rem',
+    width: 200,
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+
+  icons: {
+    width: 20,
+  },
+
+  footerButton: {
+    background: 'transparent',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  formInputContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 80,
+    padding: '20px 0px',
+  },
+
+
+*/
