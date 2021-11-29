@@ -34,19 +34,19 @@ handler.put(async (req, res) => {
     // product.farmer = req.user._id; // comment it out: checking errors
 
     // convert the product name to SEO friendly slug and removing any extra white space
-    const newSlug =
-      req.body.name
-        .replace(/\s+/g, ' ')
-        .trim()
-        .toLowerCase()
-        .replaceAll(' ', '-') +
-      '-' +
-      Math.random();
+    // const newSlug =
+    //   req.body.name
+    //     .replace(/\s+/g, ' ')
+    //     .trim()
+    //     .toLowerCase()
+    //     .replaceAll(' ', '-') +
+    //   '-' +
+    //   Math.random();
     // this is giving me an error on the deployed version, I have to check it and see why.
 
     // populate the product information with the new information coming from the api request
     product.name = req.body.name;
-    product.slug = newSlug; // have to remove the slug from the frontend
+    product.slug = req.body.slug; // have to remove the slug from the frontend
     product.price = req.body.price;
     product.image = req.body.image;
     product.category = req.body.category;
