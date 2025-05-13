@@ -19,7 +19,7 @@ Material ui
 Paypal Payment
 Cloudinary
 
-## The application is fully deployed on:
+## The application is fully deployed on
 
 HEROKU: [Heroku](https://pure-farm.herokuapp.com/)
 \
