@@ -13,7 +13,7 @@ import {
 import Rating from '@mui/material/Rating';
 import axios from 'axios';
 import { useRouter } from 'next/router';
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import Layout from '../components/Layout';
 import ProductItem from '../components/ProductItem';
 import Product from '../models/Product';

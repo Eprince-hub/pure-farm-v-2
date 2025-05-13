@@ -22,7 +22,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import footerLogo from '../public/images/logos/footer-logo.png';
 import headerLogo from '../public/images/logos/header-logo.png';
 import styles from '../styles/NewUpgradedStyles.module.css';
@@ -30,14 +30,10 @@ import classes from '../utils/classes';
 import { getError } from '../utils/error';
 
 export default function Header() {
-  // Using the classes and styles from Material UI
-  /* const classes = useStyles(); */
+  const [navbar, setNavbar] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
 
   const router = useRouter();
-
-  // function that handles the user profile menu show and hide
-  // first define state for the anchor element according to material ui documentary
-  const [anchorEl, setAnchorEl] = useState(null);
 
   // define and set the function that shows the menu
   const loginClickHandler = (event) => {
@@ -52,9 +48,6 @@ export default function Header() {
       router.push(redirect);
     }
   };
-
-  // change navbar background color on scroll
-  const [navbar, setNavbar] = useState(false);
 
   useEffect(() => {
     const changeBackground = () => {
@@ -74,7 +67,6 @@ export default function Header() {
     window.addEventListener('scroll', changeBackground);
   }, [navbar]);
 
-  // ###############################################################
   // search sidebar implementation
   const [sidebarVisible, setSidebarVisible] = useState(false);
 

@@ -184,7 +184,7 @@ export default function Footer(props) {
 
         <span>
           <Typography component="p" variant="p">
-            All rights reserved. Final Project Pure Farm.
+            © {new Date().getFullYear()} Pure Farm. All rights reserved.
           </Typography>
         </span>
       </section>
