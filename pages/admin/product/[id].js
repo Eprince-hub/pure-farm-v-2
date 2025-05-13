@@ -17,7 +17,7 @@ import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useContext, useEffect, useReducer } from 'react';
+import { useContext, useEffect, useReducer } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 // import useStyles from '../../../utils/styles';
 import Form from '../../../components/Form';

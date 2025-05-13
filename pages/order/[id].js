@@ -22,7 +22,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useContext, useEffect, useReducer, useState } from 'react';
+import { useContext, useEffect, useReducer, useState } from 'react';
 import Layout from '../../components/Layout';
 // import useStyles from '../../utils/styles';
 import classes from '../../utils/classes';

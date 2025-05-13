@@ -22,7 +22,7 @@ import Head from 'next/head';
 import Image from 'next/image'; // MY PERSONAL Import
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import cartIcon from '../public/images/cart.png'; // MY PERSONAL Import
 import profileIcon from '../public/images/profileLogo.png'; // MY PERSONAL Import
 import styles from '../styles/NewUpgradedStyles.module.css';
@@ -180,8 +180,7 @@ export default function Layout({
                     variant="p"
                     sx={classes.hideOnMobile}
                   >
-                    Email: victorejikewebdev@gmail.com || Phone: (+43)
-                    068864981555
+                    Email: victorejikewebdev@gmail.com
                   </Typography>
                 </Box>
                 {/* push menu items to right */}

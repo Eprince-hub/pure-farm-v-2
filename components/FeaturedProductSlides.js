@@ -8,7 +8,6 @@ import {
 } from '@mui/material';
 import Rating from '@mui/material/Rating';
 import NextLink from 'next/link';
-import React, { useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 import classes from '../utils/classes';
 

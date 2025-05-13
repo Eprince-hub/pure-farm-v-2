@@ -17,7 +17,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Form from '../../components/Form';
 import Layout from '../../components/Layout';
 import Product from '../../models/Product';

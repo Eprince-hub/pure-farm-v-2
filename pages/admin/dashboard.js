@@ -15,7 +15,7 @@ import axios from 'axios';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useContext, useEffect, useReducer, useState } from 'react';
+import { useContext, useEffect, useReducer, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
 import Layout from '../../components/Layout';
 // import useStyles from '../../utils/styles';

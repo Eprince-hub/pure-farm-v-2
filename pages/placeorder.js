@@ -24,7 +24,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import CheckoutWizard from '../components/CheckoutWizard';
 import Layout from '../components/Layout';
 // import useStyles from '../utils/styles';

@@ -12,7 +12,7 @@ import {
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import CheckoutWizard from '../components/CheckoutWizard';
 import Form from '../components/Form';
 import Layout from '../components/Layout';

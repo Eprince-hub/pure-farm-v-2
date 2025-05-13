@@ -20,7 +20,7 @@ import axios from 'axios';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useContext, useEffect, useReducer } from 'react';
+import { useContext, useEffect, useReducer } from 'react';
 import Layout from '../components/Layout';
 // import useStyles from '../utils/styles';
 import classes from '../utils/classes';
