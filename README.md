@@ -81,3 +81,4 @@ If you would like to set up the project yourself, follow these steps:
 This project still uses Next.js with the `Page` directory, which is now considered the old architecture. The `Pure Farm V 2` is the new updated version that will use the latest Next.js with the `App` directory, with other improvements and optimizations that it currently lacks. Feel free  to follow the development https://github.com/Eprince-hub/pure-farm-v-2
 
 ### Thanks For Viewing
+
